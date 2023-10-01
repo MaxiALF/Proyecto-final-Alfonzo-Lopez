@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Multimedia/icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculador de porcentajes por peleas ganadas</title>
+</head>
+<body>
+    <div class="barInicio">
+        <img src="./Multimedia/icons/icon.png" width="150px" weight="150px">
+        <h1 class="text-xl-center">Cal<strong>K.O!</strong></h1>
+    </div>
+
+
+    <div class="titulo1">
+        <h2><strong>Calculador de porcentaje por peleas ganadas.</strong></h2>
+        <p class="fs-4 text-center">Bienevenido al primer calculador por peleas ganadas de la red, utilizado para los mejores luchadores del mundo!</p>
+    </div>
+
+    <div id="tarjetaLuchador" class="text-center">
+    </div>
+
+    <div class="formula">
+        <h2 class="titulo2 fs-1 text-center p-4 mt-2">Calcule el porcentaje de victoria de uno o más luchadores</h2>
+
+        <form id="Registro">
+            <div class="row space">
+                <div class="col-sm column-1 text-end">
+                    <label for="Nombre">Nombre:</label>
+                </div>
+                <div class="col-sm column-2 text-start">
+                    <input type="text" id="nombre" placeholder="nombre" required>
+                </div>
+            </div>
+            <div class="row space">
+                <div class="col-sm column-1 text-end">
+                    <label for="peleasGanadas">Peleas ganadas:</label>
+                </div>
+                <div class="col-sm column-2 text-start">
+                    <input type="number" id="peleasGanadas" placeholder="Peleas ganadas" required>
+                </div>
+            </div>
+            <div class="row space">
+                <div class="col-sm column-1 text-end">
+                    <label for="totalPeleas">Total de peleas disputadas:</label>
+                </div>
+                <div class="col-sm column-2 text-start">
+                    <input type="number" id="totalPeleas" placeholder="Total de peleas" required>
+                </div>
+            </div>
+
+            <div id="respuestaPor" class="text-center bg-gradient text-success"></div>
+
+            <div class="space">
+                <input type="submit" value="Calcular e ingresar">
+            </div>
+        </form>
+    </div>
+
+    <div id="secPeleador" style="display: none;" class="listaPeleador">
+        <h2>Luchadores</h2>
+        <div id="listaLuchadores"></div>
+    </div>
+
+    <div id="Agregar" class="sumarMas">
+        <h2 class="fs-1">¿Desea agregar más luchadores?</h2>
+        <div class="botones">
+            <input type="button" id="AgSi" value=" si ">
+            <input type="button" id="AgNo" value=" no ">
+        </div>
+    </div>
+
+    <footer>
+        <p>Calculador de porcentajes de victorias - <i class="fa-sharp fa-regular fa-copyright"></i> Copyright 2023 Todos los derechos reservados </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

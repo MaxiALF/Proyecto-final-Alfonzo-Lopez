@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barInicio{
+    background-color: rgb(1, 108, 150);
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+}
+
+body{
+    background-image: url(./Multimedia/img/ring2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    background-color: rgb(1, 108, 150);
+    padding: 50px;
+    color: aliceblue ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+strong{
+    font-family: fantasy;
+}
+
+h2{
+    padding: 20px 0 20px 0;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.formula{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.titulo1{
+    background-color: rgba(0, 0, 0, 0.500);
+    text-align: center;
+    color: cadetblue;
+    padding: 20px 0 20px 0;
+}
+
+.titulo1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo2{
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.space{
+    color: cadetblue;
+    width: 100%;
+    font-size: 30px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
+.sumarMas{
+    background-color: green;
+    text-align: center;
+    color: aliceblue;
+}
+
+.botones{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.listaPeleador{
+    background-color: rgba(0, 0, 0, 0.500);
+    text-align: center;
+    font-size: 25px;
+    color: gold;
+    padding-bottom: 10px;
+
+}
+
+.tarjeta {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    background-image: radial-gradient(circle at 26.13% -1.19%, #fff173 0, #fff56c 5.56%, #fff867 11.11%, #fffa63 16.67%, #eafb62 22.22%, #d2fb62 27.78%, #b7fa65 33.33%, #99f869 38.89%, #74f670 44.44%, #3cf278 50%, #00ee82 55.56%, #00ea8f 61.11%, #00e69e 66.67%, #00e2af 72.22%, #00dec0 77.78%, #00dbd3 83.33%, #00d8e6 88.89%, #00d5f9 94.44%, #00d3ff 100%);
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+#tarjetaLuchador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: floralwhite;
+}
+
+footer{
+    text-align: center;
+    font-size: large;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 0 5px 0;
+}

@@ -1,0 +1,76 @@
+{
+    "luchadores": [
+        {
+            "imageURL": "./multimedia/img/Mistico2.JPG",
+            "nombre": "Mistico",
+            "peso": "75 kgs",
+            "edad": "40 años",
+            "estatura": "1.70 m" ,
+            "porcentVic": "%100"
+        },
+        {
+            "imageURL": "./multimedia/img/Rey_Mysterio.JPG",
+            "nombre": "Rey Mysterio",
+            "peso": "79 kgs",
+            "edad": "48 años",
+            "estatura": "1.68 m",
+            "porcentVic": "%49"
+        },
+        {
+            "imageURL": "./multimedia/img/dragon-lee.JPG",
+            "nombre": "Dragón Lee",
+            "peso": "75 kgs",
+            "edad": "28 años",
+            "estatura": "1.71 m",
+            "porcentVic": "%22"
+        },
+        {
+            "imageURL": "./multimedia/img/blue-demon1.JPG",
+            "nombre": "Blue Demon",
+            "peso": "90 kgs",
+            "edad": "50 años",
+            "estatura": "1.72 m",
+            "porcentVic": "%55"
+        },
+        {
+            "imageURL": "./multimedia/img/undertaker.JPG",
+            "nombre": "Undertaker",
+            "peso": "94 kgs",
+            "edad": "57 años",
+            "estatura": "1.78 m",
+            "porcentVic": "%65,4"
+        },
+        {
+            "imageURL": "./multimedia/img/caristico.JPG",
+            "nombre": "Caristico",
+            "peso": "75 kgs",
+            "edad": "40 años",
+            "estatura": "1.70 m",
+            "porcentVic": "%75.8"
+        },
+        {
+            "imageURL": "./multimedia/img/rush.JPG",
+            "nombre": "Rush",
+            "peso": "93 kgs",
+            "edad": "34 años",
+            "estatura": "1.83 m",
+            "porcentVic": "%30"
+        },
+        {
+            "imageURL": "./multimedia/img/Volador-Jr.JPG",
+            "nombre": "Volador Jr",
+            "peso": "87 kgs",
+            "edad": "42 años",
+            "estatura": "1.75 m",
+            "porcentVic": "%90,7"
+        },
+        {
+            "imageURL": "./multimedia/img/Exodus.JPG",
+            "nombre": "Exodus",
+            "peso": "80 kgs",
+            "edad": "28 años",
+            "estatura": "1.75 m",
+            "porcentVic": "%76.9"
+        }
+    ]
+}
